@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "61d0f982-3e69-47b8-9801-ecffea0f5b2e",
+		"name": "demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17353873"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/v1/coins/list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/coins/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"coins",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/coins/list/usd-coin",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/coins/list/usd-coin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"coins",
+						"list",
+						"usd-coin"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
