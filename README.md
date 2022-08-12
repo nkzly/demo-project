@@ -13,7 +13,7 @@ docker build -f Dockerfile -t app:v.0.1 .
 ```
 To run image:
 ```
-docker run -p 8090:8090 app:v.0.1
+docker run -dp 8080:8080 app:v.0.1
 ```
 
 To call service:
